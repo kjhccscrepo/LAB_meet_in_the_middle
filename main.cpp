@@ -1,7 +1,12 @@
 #include <iostream>
+#include <fstream>
+#include "src/IntStack.hpp"
 
-#include "src/hello.hpp"
+
 
 int main() {
-  std::cout << hello() << std::endl;
+    std::ofstream file_to_open;
+    file_to_open.open("test.txt");
+
+
 }
